@@ -4,7 +4,7 @@ import './lowernavbar.css'
 export const LowerNavbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary py-3 fw-medium px-xl-4 px-lg-5">
-    <div className="container-fluid mx-5 mx-xl-4 px-lg-1 mx-lg-3">
+    <div className="container-fluid mx-5 mx-xl-4 px-lg-1 mx-lg-3 px-xxl-5">
     <a className="navbar-brand ms-3 ms-xl-0 ms-lg-0" href="#">
       <img src="/public/images/shopcart-logo.svg" alt="Bootstrap" width="30" height="24"/>
     </a>
