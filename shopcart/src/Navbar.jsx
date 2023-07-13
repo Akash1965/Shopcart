@@ -5,8 +5,8 @@ import { UpperNavbar } from './UpperNavbar'
 export const Navbar = () => {
   return (
     <>
-        <LowerNavbar/>
         <UpperNavbar/>
+        <LowerNavbar/>
     </>
   )
 }

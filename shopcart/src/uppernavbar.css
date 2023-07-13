@@ -1,3 +1,18 @@
-.navbar-brand > img{
-    width: 5rem;
+nav{
+    list-style-type: none;
+}
+
+nav li{
+    cursor: pointer;
+}
+
+nav select{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+select option{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }

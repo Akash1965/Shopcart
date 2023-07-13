@@ -3,50 +3,23 @@ import './uppernavbar.css'
 
 export const UpperNavbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    <div className="container-fluid">
-    <a className="navbar-brand" href="#">
-      <img src="/public/images/shopcart-logo.svg" alt="Bootstrap" width="30" height="24"/>
-    </a>
-
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Category
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Deals</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">What&apos;s New</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Delivery</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Account</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Cart</a>
-        </li>
-      </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+    <nav className='d-flex flex-md-row justify-content-md-around flex-column text-center bg-success text-white'>
+            <li><i className="bi bi-telephone"></i>+001234567890</li>
+            <li>Get 50% Off on Selected Items    |      Shop Now</li>
+            <div>
+                <select name="" id="" className='bg-success text-white'>
+                    <option value="" selected disabled hidden>Eng</option>
+                    <option value="">Bangla</option>
+                    <option value="">Arabic</option>
+                    <option value="">Urdu</option>
+                </select>
+                <select name="" id="" className='bg-success text-white'>
+                    <option value="" selected disabled hidden>Location</option>
+                    <option value="">Dhaka</option>
+                    <option value="">USA</option>
+                    <option value="">India</option>
+                </select>
+            </div>
+    </nav>
   )
 }
