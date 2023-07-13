@@ -3,3 +3,35 @@
     height: 3rem;
     box-sizing: border-box;
 }
+
+input[type="search"]{
+    width: 18rem;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .navbar-brand > img{
+        width: 10rem;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    input[type="search"]{
+        width: 9rem;
+    }
+}
+@media screen and (max-width: 992px){
+    input[type="search"]{
+        display: none!important;
+    }
+    .account{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .collapsed-button{
+        margin: auto;
+    }
+}
